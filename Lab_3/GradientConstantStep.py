@@ -3,15 +3,15 @@ import matplotlib.pyplot as plt
 
 
 def func1(x, y):
-    return (x + 2 * y - 7) ** 2 + (2 * x + y - 5) ** 2      # Функция Бута
+    return x ** 2 + y ** 2 - x * y
 
 
 def df1_x(x, y):
-    return 10 * x + 8 * y - 34
+    return 2 * x - y
 
 
 def df1_y(x, y):
-    return 8 * x + 10 * y - 38
+    return 2 * y - x
 
 
 def func2(x, y):
@@ -73,9 +73,9 @@ def vanillaGradient(title, f, df_x, df_y, x0, y0, eps, alpha, a, b):
     print("y:", curr_y, "\n")
 
 
-title = "Function Booth: (x + 2 * y - 7) ** 2 + (2 * x + y - 5) ** 2"
+title = "Function: x^2 + y^2 - xy"
 print(title)
-vanillaGradient(title, func1, df1_x, df1_y, -4, 1, 0.00001, 0.001, -4, 4)
+vanillaGradient(title, func1, df1_x, df1_y, 5, 8, 0.00001, 0.01, -10, 10)
 
 title = "Function Himmelblau: (x**2 + y - 11)**2 + (x + y**2 - 7)**2 "
 print(title)
