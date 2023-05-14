@@ -53,11 +53,10 @@ def grad_down_gold(title, f, df_x, df_y, x0, y0, eps, a, b):
     print("y:", curr_y, "\n")
 
 
-title = "Function Booth: (x + 2 * y - 7) ** 2 + (2 * x + y - 5) ** 2"
+title = "Function: x^2 + y^2 - xy"
 print(title)
-grad_down_gold(title, func1, df1_x, df1_y, -4, 1, 0.00001, -4, 4)
+grad_down_gold(title, func1, df1_x, df1_y, 5, 8, 0.00001, -10, 10)
 
 title = "Function Himmelblau: (x**2 + y - 11)**2 + (x + y**2 - 7)**2 "
 print(title)
 grad_down_gold(title, func2, df2_x, df2_y, -2, 2, 0.00001, -4, 4)
-
