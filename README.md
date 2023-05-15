@@ -8,6 +8,6 @@
 
 1. [ЛР№1 - Методы оптимизации одномодальных функций](https://github.com/RomanKosovets/PriMat/blob/main/lab_Description/AM_Lab_2%20(1).pdf)
 2. [ЛР№2 - Численное дифференцирование и интегрирование](https://github.com/RomanKosovets/PriMat/blob/main/lab_Description/AM_Lab_1%20(2).pdf)
-3. [ЛР№3 - методы градиентного спуска](https://github.com/RomanKosovets/PriMat/blob/main/lab_Description/AM_Lab_3.pdf)
+3. [ЛР№3 - Методы градиентного спуска](https://github.com/RomanKosovets/PriMat/blob/main/lab_Description/AM_Lab_3.pdf)
 4. [ЛР№4 - Модели массового обслуживания с ожиданием](https://github.com/RomanKosovets/PriMat/blob/main/lab_Description/AM_Lab_4.pdf)
 
