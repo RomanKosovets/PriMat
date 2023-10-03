@@ -1,0 +1,5 @@
+{"f": [1 , 2 , 3] ,
+"goal": " max " ,
+"constraints": [{"coefs": [1 , 0 , 0] , "type": "lte" , "b": 1} ,
+                {"coefs": [1 , 1 , 0] , "type": "gte" , "b": 2} ,
+                {"coefs": [1 , 1 , 1] , "type": "eq" , "b": 3}]}
